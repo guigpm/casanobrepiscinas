@@ -1,0 +1,216 @@
+/* 
+* Ladrao!!! Sai daqui, seu corinthiano!
+* Desenvolvido por William Kunitake em 2013. 
+*/
+
+@font-face {
+	font-family: 'bebas_neueregular';
+	src: url('../fonts/bebasneue-webfont.eot');
+	src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/bebasneue-webfont.woff') format('woff'),
+	     url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+	     url('../fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+}
+
+/* SEÇÃO DE INÍCIO */
+
+.logo {
+	margin: 250px;
+	text-align: center;
+}
+
+#inicio {
+	width: 100%;
+	height: 800px;
+}
+
+/* BOTÃO DE ABRIR MODAL */
+
+.open-btn {
+	width: 100%;
+	height: 50px;
+	padding: 11px;
+	cursor: pointer;
+	border-radius: 0 0 4px 4px;
+}
+
+.open-btn.clr-1 {
+	background: #226288;
+}
+
+.open-btn.clr-2 {
+	background: #02A1D9;
+}
+
+/* SEÇÃO DE PISCINAS */
+
+.uk-grid:not(.uk-grid-preserve) {
+	margin: 80px auto;
+}
+
+#piscinas {
+	width: 100%;
+	height: 1400px;
+	padding: 120px;
+	background: url(../img/backgrounds/bg1.png) repeat-x;
+	background-color: #0AA4DA;
+}
+
+#piscinas img {
+	width: 100%;
+	height: 190px;
+}
+
+@media (min-width: 1345px) {
+	#piscinas img {
+		width: 342px;
+	}
+}
+
+#piscinas h1 {
+	font-family: 'bebas_neueregular';
+	font-size: 80px;
+	color: #FFF;
+	text-transform: none;
+	text-align: center;
+}
+
+#piscinas h2 {
+	font-family: 'bebas_neueregular';
+	font-size: 30px;
+	color: #FFF;
+	text-transform: none;
+	text-align: center;
+}
+
+/* DIVISOR DAS SEÇÕES */
+
+.section-divider {
+	width: 100%;
+	height: 120px;
+	z-index: 11111;
+	position: absolute;
+	background: linear-gradient(0deg, #02A1D9 50%, #226288 50%);
+}
+
+.sd1 {
+	-webkit-box-shadow: 0 5px 10px -5px #000;
+	   -moz-box-shadow: 0 5px 10px -5px #000;
+		-ms-box-shadow: 0 5px 10px -5px #000;
+		 -o-box-shadow: 0 5px 10px -5px #000;
+		 	box-shadow: 0 5px 10px -5px #000;
+	-webkit-transform: skewY(-1.5deg) scaleY(1.5);
+	   -moz-transform: skewY(-1.5deg) scaleY(1.5);
+		-ms-transform: skewY(-1.5deg) scaleY(1.5);
+		 -o-transform: skewY(-1.5deg) scaleY(1.5);
+		 	transform: skewY(-1.5deg) scaleY(1.5);
+}
+
+.sd2 {
+	-webkit-box-shadow: 0 0px 10px 0px #000;
+	   -moz-box-shadow: 0 0px 10px 0px #000;
+		-ms-box-shadow: 0 0px 10px 0px #000;
+		 -o-box-shadow: 0 0px 10px 0px #000;
+		 	box-shadow: 0 0px 10px 0px #000;
+	-webkit-transform: skewY(3deg) scaleY(1.5) translateY(-40px);
+	   -moz-transform: skewY(3deg) scaleY(1.5) translateY(-40px);
+		-ms-transform: skewY(3deg) scaleY(1.5) translateY(-40px);
+		 -o-transform: skewY(3deg) scaleY(1.5) translateY(-40px);
+		 	transform: skewY(3deg) scaleY(1.5) translateY(-40px);
+}
+
+/* EXIBIÇÃO DE PISCINAS NO PARALLAX */
+
+#piscinas-scrolling {
+	width: 100%;
+	height: 3000px;
+}
+
+#piscinas-scrolling img {
+	width: 100%;
+	height: 1000px;
+}
+
+/* SEÇÃO DE SPAS */
+
+#spas {
+	width: 100%;
+	height: 1400px;
+	padding: 120px;
+	background: url(../img/backgrounds/bg2.png) repeat-x;
+	background-color: #0AA4DA;
+}
+
+#spas img {
+	width: 100%;
+	height: 190px;
+}
+
+@media (min-width: 1345px) {
+	#spas img {
+		width: 342px;
+	}
+}
+
+#spas h1 {
+	font-family: 'bebas_neueregular';
+	font-size: 80px;
+	color: #FFF;
+	text-transform: none;
+	text-align: center;
+}
+
+#spas h2 {
+	font-family: 'bebas_neueregular';
+	font-size: 30px;
+	color: #FFF;
+	text-transform: none;
+	text-align: center;
+}
+
+/* SEÇÃO DE FONTES */
+
+#fontes {
+	width: 100%;
+	height: 1000px;
+	background: black;
+}
+
+/* SEÇÃO DE PAISAGISMO */
+
+#paisagismo {
+	width: 100%;
+	height: 1000px;
+	background: yellow;
+}
+
+/* SEÇÃO DE DECKS */
+
+#decks {
+	width: 100%;
+	height: 1000px;
+	background: gray;
+}
+
+/* SEÇÃO DE LOCALIZAÇÃO */
+
+#localizacao {
+	width: 100%;
+	height: 1000px;
+	background: #f1f1f1;
+}
+
+/* SEÇÃO DE CONTATO */
+
+#contato {
+	width: 100%;
+	height: 1000px;
+	background: #c80000;
+}
